@@ -67,10 +67,13 @@
     <script>
       fetch("components/navbar.html")
         .then((response) => response.text())
-        .then(
-          (data) =>
-            (document.getElementById("navbar-placeholder").innerHTML = data),
-        );
+        .then((data) => {
+          document.getElementById("navbar-placeholder").innerHTML = data;
+          // Reinitialize Flowbite after navbar is loaded
+          if (typeof initFlowbite !== "undefined") {
+            initFlowbite();
+          }
+        });
     </script>
     <script>
       fetch("components/carousel.html")
