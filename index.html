@@ -63,17 +63,13 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
     <script>
       fetch("components/navbar.html")
         .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("navbar-placeholder").innerHTML = data;
-          // Reinitialize Flowbite after navbar is loaded
-          if (typeof Flowbite !== "undefined") {
-            Flowbite.initCollapses();
-          }
-        });
+        .then(
+          (data) =>
+            (document.getElementById("navbar-placeholder").innerHTML = data),
+        );
     </script>
     <script>
       fetch("components/carousel.html")
@@ -83,5 +79,6 @@
             (document.getElementById("carousel-placeholder").innerHTML = data),
         );
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
   </body>
 </html>
