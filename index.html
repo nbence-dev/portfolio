@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,7 +32,7 @@
     >
       <div class="flex-1">
         <img
-          src="assets/images/_DSC0894-2.jpg"
+          src="/assets/images/me.jpg"
           alt=""
           class="h-80 lg:h-auto lg:w-auto"
         />
@@ -67,7 +67,7 @@
         .then((response) => response.text())
         .then(
           (data) =>
-            (document.getElementById("navbar-placeholder").innerHTML = data)
+            (document.getElementById("navbar-placeholder").innerHTML = data),
         );
     </script>
     <script>
@@ -75,7 +75,7 @@
         .then((response) => response.text())
         .then(
           (data) =>
-            (document.getElementById("carousel-placeholder").innerHTML = data)
+            (document.getElementById("carousel-placeholder").innerHTML = data),
         );
     </script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
