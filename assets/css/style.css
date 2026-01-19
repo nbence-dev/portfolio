@@ -35,6 +35,39 @@
     object-fit: contain;
 }
 
+.typewriter {
+  overflow: hidden;
+  /* Keeps on a single line */
+  white-space: nowrap;
+  /* The cursor */
+  border-right: 1px solid;
+  /* steps = number of characters */
+  animation: typing 3s steps(10) forwards, blink 1s 3s step-end infinite;
+}
+
+.custom-hide{
+    opacity: 0;
+    transition: all 1s;
+}
+.custom-show{
+    opacity: 1;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 9ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
 @keyframes spin {
     from {translate: 0;}
     to {translate: -100%;}
