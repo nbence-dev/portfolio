@@ -1,4 +1,6 @@
+document.body.style.overflow = 'hidden';
 setTimeout(() => {
+    document.body.style.overflow = 'auto';
     const observer = new IntersectionObserver((entries)=> {
        entries.forEach((entry)=> {
             console.log(entry)
