@@ -1,10 +1,10 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Personal Portfolio",
     description: "A full-stack e-commerce solution built with React and Node.js featuring payment integration and admin dashboard.",
-    image: "assets/images/projects/ecommerce.jpg",
-    link: "#",
+    image: "assets/images/project1.png",
+    link: "https://github.com/nbence-dev/portfolio",
     tags: ["React", "Node.js", "MongoDB"]
   },
   {
