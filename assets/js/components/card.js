@@ -1,7 +1,7 @@
 export function createProjectCard(project) {
   return `
     <div class="bg-[#0d5a69] flex flex-col max-w-sm p-6 border border-gray-200 rounded-lg shadow-md h-full">
-      <img class="rounded-lg w-full h-48 object-cover" src="${project.image}" alt="${project.title}" />
+      <img class="rounded-lg w-full h-48 object-cover border-2 border-[#d2f4f9]" src="${project.image}" alt="${project.title}" />
       <h5 class="mt-6 mb-2 text-2xl font-semibold tracking-tight text-[#062b32]">
         ${project.title}
       </h5>
