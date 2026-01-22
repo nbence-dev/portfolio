@@ -2,18 +2,18 @@ export const projects = [
   {
     id: 1,
     title: "Personal Portfolio",
-    description: "A full-stack e-commerce solution built with React and Node.js featuring payment integration and admin dashboard.",
+    description: "A personal website done as part of a Udemy Course where I exceeded my expectations. I learned to use HTML, CSS and Javascript.",
     image: "assets/images/project1.png",
     link: "https://github.com/nbence-dev/portfolio",
     tags: ["React", "Node.js", "MongoDB"]
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Real-time collaborative task manager with drag-and-drop functionality and team chat.",
-    image: "assets/images/projects/taskapp.jpg",
-    link: "#",
-    tags: ["Vue.js", "Firebase", "Tailwind"]
+    title: "HTML Resume",
+    description: "A simple resume created using HTML to present personal and professional information in a clear, structured format. This project demonstrates my understanding of basic web fundamentals, content organization, and the ability to translate a traditional résumé into a web-based format.",
+    image: "assets/images/resume.png",
+    link: "https://github.com/nbence-dev/Resume",
+    tags: ["HTML"]
   },
   {
     id: 3,
