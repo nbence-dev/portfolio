@@ -15,12 +15,12 @@ export const projects = [
     link: "https://github.com/nbence-dev/Resume",
     tags: ["HTML"]
   },
-  {
-    id: 3,
-    title: "Weather Dashboard",
-    description: "Interactive weather forecast application with geolocation and data visualization.",
-    image: "assets/images/projects/weather.jpg",
-    link: "#",
-    tags: ["JavaScript", "API", "Charts.js"]
-  }
+  // {
+  //   id: 3,
+  //   title: "Weather Dashboard",
+  //   description: "Interactive weather forecast application with geolocation and data visualization.",
+  //   image: "assets/images/projects/weather.jpg",
+  //   link: "#",
+  //   tags: ["JavaScript", "API", "Charts.js"]
+  // }
 ];
