@@ -120,33 +120,39 @@
             <p class="text-3xl text-center font-bold text-[#D2F4F9] mb-10">
               Let's get in touch!
             </p>
-            <div
-              class="grid grid-rows-5 lg:!grid-cols-2 lg:!gap-x-5 gap-y-2 lg:!gap-y-5 items-center justify-center max-w-3xl mx-auto"
-            >
-              <input
-                type="text"
-                class="bg-[#D2F4F9] pl-2 pr-6 border-[#062b32B3] text-gray-500 rounded-lg border-2"
-                placeholder="Name"
-              /><input
-                type="text"
-                class="bg-[#D2F4F9] pl-2 pr-6 border-[#062b32B3] text-gray-500 rounded-lg border-2"
-                placeholder="Surname"
-              /><input
-                type="email"
-                class="lg:!col-span-2 pl-2 pr-6 bg-[#D2F4F9] border-[#062b32B3] text-gray-500 rounded-lg border-2"
-                placeholder="Email"
-              /><input
-                type="text"
-                class="lg:!col-span-2 pl-2 pr-6 row-span-2 bg-[#D2F4F9] border-[#062b32B3] text-gray-500 rounded-lg border-2 h-full"
-                placeholder="Message"
-              />
-              <button
-                type="submit"
-                class="bg-[#FF7A45] font-semibold py-2 rounded-lg lg:!col-start-2 lg:!col-end-2 hover:bg-[#f96d36] transform duration-200"
+            <form action="https://formspree.io/f/xlgbqnbn" method="post">
+              <div
+                class="grid grid-rows-5 lg:!grid-cols-2 lg:!gap-x-5 gap-y-2 lg:!gap-y-5 items-center justify-center max-w-3xl mx-auto"
               >
-                Send
-              </button>
-            </div>
+                <input
+                  name="firstname"
+                  type="text"
+                  class="bg-[#D2F4F9] pl-2 pr-6 border-[#062b32B3] text-gray-500 rounded-lg border-2"
+                  placeholder="Name"
+                /><input
+                  type="text"
+                  name="surname"
+                  class="bg-[#D2F4F9] pl-2 pr-6 border-[#062b32B3] text-gray-500 rounded-lg border-2"
+                  placeholder="Surname"
+                /><input
+                  type="email"
+                  name="email"
+                  class="lg:!col-span-2 pl-2 pr-6 bg-[#D2F4F9] border-[#062b32B3] text-gray-500 rounded-lg border-2"
+                  placeholder="Email"
+                /><textarea
+                  name="message"
+                  class="lg:!col-span-2 pl-2 pr-6 row-span-2 bg-[#D2F4F9] border-[#062b32B3] text-gray-500 rounded-lg border-2 h-full resize-none"
+                  placeholder="Message"
+                ></textarea>
+
+                <button
+                  type="submit"
+                  class="bg-[#FF7A45] font-semibold py-2 rounded-lg lg:!col-start-2 lg:!col-end-2 hover:bg-[#f96d36] transform duration-200"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
