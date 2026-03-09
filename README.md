@@ -1,5 +1,5 @@
 View it on the Internet hosted by Github Pages:
-nbence-dev.github.io/portfolio/
+(nbence-dev.github.io/portfolio/)
 
 
 Download it self:
