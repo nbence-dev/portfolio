@@ -1,5 +1,4 @@
-View it on the Internet hosted by Github Pages:
-(nbence-dev.github.io/portfolio/)
+View it on the Internet hosted by [GitHub Pages](nbence-dev.github.io/portfolio/)
 
 
 Download it self:
